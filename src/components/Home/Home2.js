@@ -21,7 +21,7 @@ function Home2() {
             <p className="home-about-body">
               A software engineer with a passion for building innovative products and simplifying complex problems.
               <br />
-              <br />I am fluent in classics like
+              <br />I am fluent in these languages:
               <i>
                 <b className="purple"> Javascript, TypeScript and Python. </b>
               </i>

@@ -18,6 +18,7 @@ import {
   SiTypescript,
   SiRedux,
   SiExpress,
+  SiSocketdotio
 } from 'react-icons/si';
 
 function Techstack() {
@@ -113,6 +114,16 @@ function Techstack() {
         <Row>
           <p className='purple' style={{ fontSize: '0.26em' }}>
             MongoDB{' '}
+          </p>
+        </Row>
+      </Col>
+      <Col xs={4} md={2} className='tech-icons'>
+        <Row>
+          <SiSocketdotio />
+        </Row>
+        <Row>
+          <p className='purple' style={{ fontSize: '0.26em' }}>
+            Socket.io{' '}
           </p>
         </Row>
       </Col>

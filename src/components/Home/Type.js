@@ -9,8 +9,6 @@ function Type() {
           "MERN Stack Developer",
         ],
         autoStart: true,
-        loop: true,
-        deleteSpeed: 50,
       }}
     />
   );
