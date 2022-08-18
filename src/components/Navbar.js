@@ -38,7 +38,7 @@ function NavBar() {
       className={navColour ? "sticky" : "navbar"}
     >
       <Container>
-        <Navbar.Brand href="/" className="d-flex">
+        <Navbar.Brand href="https://aaabdulmoiz.github.io/portfolio" className="d-flex">
         <span className="purple"> Portfolio </span> 
         </Navbar.Brand>
         <Navbar.Toggle
@@ -94,7 +94,7 @@ function NavBar() {
 
             {/* <Nav.Item>
               <Nav.Link
-                href="https://blogs.soumya-jit.tech/"
+                href="https://aaabdulmoiz.github.io/"
                 target="_blank"
                 rel="noreferrer"
               >
