@@ -10,27 +10,32 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Abdul Moiz </span>
             from <span className="purple"> Karachi, Pakistan.</span>
-            <br />I am a software enigineer currently working at one of the largest software house in Pakistan
+            <br />I am a software enigineer currently working at one of the largest software house in Pakistan.
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+            I am a FullStack Engineer who has 1+ years of experience in building web application. Some of 
+            the technologies I use daily include:
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <ImPointRight /> NodeJS
             </li>
             <li className="about-activity">
-              <ImPointRight /> Writting Tech Blogs
+              <ImPointRight /> ReactJS
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+              <ImPointRight /> ExpressJS
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> MongoDB
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> Docker
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> TypeScript
             </li>
           </ul>
-
-          <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
-          </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
         </blockquote>
       </Card.Body>
     </Card>

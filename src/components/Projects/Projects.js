@@ -8,6 +8,9 @@ import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
+import instaFeed from '../../Assets/Projects/instaFeed.png'
+import cricScorer from '../../Assets/Projects/cricScorer.png'
+import collabovid from '../../Assets/Projects/collabovid.png'
 
 function Projects() {
   return (
@@ -25,43 +28,30 @@ function Projects() {
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Digicel MyCash"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Private"
+              description="I am currently working as a backend engineer developing APIs for a clients fintech application. Responsible for backend development of the admin portal and developing APIs for different flow for a mobile application using microservice architecture."
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={collabovid}
               isBlog={false}
               title="Collabovid"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              description="This mobile application was built on React Native with a NodeJS backend. Leveraging the Google Maps API, whenever a user was in need of something, they could post it in the application with their location and anyone within an area of 2km would get a notification regarding it."
+              frontendLink="https://github.com/aaabdulmoiz/collabovid-frontend"
+              backendLink="https://github.com/aaabdulmoiz/collabovid"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={instaFeed}
               isBlog={false}
               title="Instagram Replica"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={leaf}
-              isBlog={false}
-              title="PIA Complaint Management System"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              description="Built as a web application to replicate the functionality of Instagram. This web application allowed the users to upload posts and users were able to like and comment on them. Furthermore, I used to socket.io to facilitate private chat between the users."
+              backendLink = "https://github.com/aaabdulmoiz/insta-backend"
+              frontendLink = "https://github.com/aaabdulmoiz/insta-frontend"           
             />
           </Col>
 
@@ -70,21 +60,19 @@ function Projects() {
               imgPath={suicide}
               isBlog={false}
               title="Blood Donation Web App"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              description="Front-end code for the web development Project. Through this web application, you could get the information on the nearest hospitals and if you wanted to donate blood , you could fill a form. Any one need the blood donation would be able to contact you."
+              frontendLink="https://github.com/aaabdulmoiz/Blood-Donation-app"
+              backendLink="https://github.com/aaabdulmoiz/Backend-blood-donation"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={cricScorer}
               isBlog={false}
               title="CricScorer"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              description="An app to keep score of cricket matches. This Web Application was made in HTML, CSS, JavaScript and MySql and it was my first Web Development Project. The basic idea of the app was to provide cricket teams to keep track of their scores in an easier way and the abilty to challenge other teams registered on the website."
+              ghLink="https://github.com/aaabdulmoiz/CricketScorer"
             />
           </Col>
         </Row>
